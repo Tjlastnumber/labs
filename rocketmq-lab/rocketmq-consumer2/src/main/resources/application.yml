@@ -1,0 +1,8 @@
+server:
+  port: 9873
+
+rocketmq:
+  name-server: 10.51.23.228:9876
+  consumer:
+    pull-batch-size: 10 # 一次拉取消息最大值，注意是拉取消息的最大值而非消费最大值
+
