@@ -1,0 +1,4 @@
+# .gitattributes
+*.bat text elo=crlf
+*.bash text elo=lf
+*.sh text elo=lf
